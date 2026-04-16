@@ -12,4 +12,8 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    // Increase the chunk size warning limit for this project
+    chunkSizeWarningLimit: 2000,
+  },
 });
