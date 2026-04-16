@@ -19,5 +19,10 @@
       "dest": "/$1"
     }
   ],
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  },
   "outputDirectory": "dist"
 }
